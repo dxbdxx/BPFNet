@@ -22,7 +22,7 @@ def main():
 
     ## ----------------------------
     model = PalmAlignNet(config, train_dataset.num_classes)
-    model.load_model('train_exp/AIRS_rgb_ir/last.pth.tar')
+    model.load_model('MODEL_PATH')
     model = model.cuda()
 
     model.eval()
