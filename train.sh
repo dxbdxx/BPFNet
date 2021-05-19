@@ -1,0 +1,1 @@
+python train_align.py --name AIRS_rgb_ir --batch_size 64 --arc --s 32 --epochs 100 --save_freq 5
