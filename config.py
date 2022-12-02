@@ -42,7 +42,7 @@ class TrainConfig(BaseConfig):
     def build_parser(self):
         parser = get_parser("Train config")
         parser.add_argument('--name', required=True)
-        parser.add_argument('--pretrain_model', type=str, default='train_exp/s1/checkpoint_90.pth.tar', help='pretrained model path')
+        parser.add_argument('--pretrain_model', type=str, default=None, help='pretrained model path')
         parser.add_argument('--debug', action='store_true', default=False, help='debug mode')
         parser.add_argument('--resume', action='store_true', default=False, help='resume training')
 
