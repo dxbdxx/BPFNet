@@ -1,0 +1,3 @@
+kornia==0.6.8
+torch==1.12.1+cu116
+Shapely==1.8.5.post1
